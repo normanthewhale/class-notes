@@ -56,4 +56,4 @@ You can make ordered lists:
 - git status: shows files that are modified from original.
 - git add -A: adds all files to the commit.
 - git commit -m "message": commits files for push and adds a description message.
--git push: pushes files to github.
+- git push: pushes files to github.
