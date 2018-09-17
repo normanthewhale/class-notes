@@ -49,3 +49,11 @@ You can make ordered lists:
 - esc, :q!: quit without saving.
 - x: deletes character.
 - esc, :wq: saves and quits.
+
+##### git commands:
+
+- git checkout -b (nameofbranch): creates and moves you to a branch.
+- git status: shows files that are modified from original.
+- git add -A: adds all files to the commit.
+- git commit -m "message": commits files for push and adds a description message.
+-git push: pushes files to github.
