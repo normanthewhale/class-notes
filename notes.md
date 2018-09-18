@@ -57,3 +57,4 @@ You can make ordered lists:
 - git add -A: adds all files to the commit.
 - git commit -m "message": commits files for push and adds a description message.
 - git push: pushes files to github.
+- git merge master: while in your branch (checkout gets you there) will merge your branch with the master.
