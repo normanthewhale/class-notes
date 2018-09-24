@@ -58,3 +58,44 @@ You can make ordered lists:
 - git commit -m "message": commits files for push and adds a description message.
 - git push: pushes files to github.
 - git merge master: while in your branch (checkout gets you there) will merge your branch with the master.
+
+##### data relationships (ex: DnD)
+
+1. 1:1
+  -character:alignment
+
+2. 1:many
+  -character:classes
+
+3. many:many
+  -races:classes
+
+##### 4 principles when working with databases
+
+1. CRUD
+  - create - post
+  - Read - get
+  - update - put
+  - delete - delete
+
+##### relational vs non relational databases
+
+1. Non-relational
+  - Afraid to get hurt
+  - MongoDB (runs in terminal in background)
+  - uses id's to link data (json)
+  - Mongo shell will create collections
+  - ORM-Object Relational Mapper
+  - ORM adds a layer of abstraction, maps objects for you.
+
+2. relational
+  - Ready to commit
+  - has more structure
+  - uses primary keys and (foreign keys-multiple tables)
+
+##### Test Driven Development (TDD)
+
+- Build
+- Red = failing
+- Get test to pass (green)
+- Refactor (make it pretty)
