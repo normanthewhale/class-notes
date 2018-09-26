@@ -99,3 +99,15 @@ You can make ordered lists:
 - Red = failing
 - Get test to pass (green)
 - Refactor (make it pretty)
+
+###### How to: TDD
+
+1. npm init
+2. install mocha and chai
+3. build a test file
+4. build a file to test
+5. run tests (FizzBuzz)
+
+##### Behavior Driven Development (BDD)
+
+- 
